@@ -1,0 +1,11 @@
+Requirement yang yang diterapkan
+1. Konsep OOP
+Kelas Note: Mewakili objek catatan dengan properti judul dan konten.
+Kelas NoteAdapter: Mengimplementasikan RecyclerView.Adapter untuk mengatur tampilan item-item catatan pada RecyclerView.
+
+2. Penggunaan konsep MVVM
+Konsep MVVM (Model-View-ViewModel) tidak diterapkan secara penuh. Meskipun demikian,
+kita menggunakan NoteAdapter sebagai adapter yang menghubungkan antara model (data catatan) dengan tampilan (RecyclerView).
+
+3. Penggunaan struktur data
+Kita menggunanakan ArrayList noteList untuk menyimpan catatan
